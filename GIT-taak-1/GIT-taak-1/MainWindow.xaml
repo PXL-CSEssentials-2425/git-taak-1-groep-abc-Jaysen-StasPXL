@@ -14,6 +14,37 @@
         <!-- Logo Afbeelding -->
         <Image HorizontalAlignment="Left" Height="78" Margin="673,20,0,0"
                VerticalAlignment="Top" Width="87" Source="PXL.png"/>
+        <!-- Kleur Afbeeldingen met Mouse Events -->
+        <Image HorizontalAlignment="Left" Height="94" Margin="146,104,0,0"
+               VerticalAlignment="Top" Width="143" Source="/Rood.png"
+               MouseEnter="redImage_MouseEnter" MouseLeave="redImage_MouseLeave"
+               MouseLeftButtonDown="redImage_Click"/>
+
+        <Image HorizontalAlignment="Left" Height="95" Margin="146,217,0,0"
+               VerticalAlignment="Top" Width="143" Source="/Groen.png"
+               MouseEnter="greenImage_MouseEnter" MouseLeave="greenImage_MouseLeave"
+               MouseLeftButtonDown="greenImage_Click"/>
+
+        <Image HorizontalAlignment="Center" Height="95" Margin="0,104,0,0"
+               VerticalAlignment="Top" Width="143" Source="/Geel.png"
+               MouseEnter="yellowImage_MouseEnter" MouseLeave="yellowImage_MouseLeave"
+               MouseLeftButtonDown="yellowImage_Click"/>
+
+        <Image HorizontalAlignment="Center" Height="95" Margin="0,217,0,0"
+               VerticalAlignment="Top" Width="143" Source="/Blauw.png"
+               MouseEnter="blueImage_MouseEnter" MouseLeave="blueImage_MouseLeave"
+               MouseLeftButtonDown="blueImage_Click"/>
+
+        <!-- Tekstvelden voor Invoer -->
+        <TextBox HorizontalAlignment="Left" Height="25" Margin="146,340,0,0"
+                 TextWrapping="Wrap" VerticalAlignment="Top" Width="326" Name="codeTextbox"/>
+
+        <TextBox HorizontalAlignment="Left" Margin="146,388,0,0"
+                 TextWrapping="Wrap" VerticalAlignment="Top" Width="326" Height="25" Name="infoTextbox"/>
+
+        <!-- Labels -->
+        <Label Content="Kleurencode:" HorizontalAlignment="Left" Margin="68,339,0,0" VerticalAlignment="Top"/>
+        <Label Content="Informatie:" HorizontalAlignment="Left" Margin="79,388,0,0" VerticalAlignment="Top"/>
 
 
     </Grid>
