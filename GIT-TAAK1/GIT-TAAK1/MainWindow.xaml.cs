@@ -73,4 +73,27 @@ namespace GIT_taak_1
         private void blueImage_MouseEnter(object sender, MouseEventArgs e)
         {
             mainWindow.Background = Brushes.Blue;
-        
+        }
+
+        // Event handlers voor muisverlatingen: verander achtergrondkleur terug naar lichtgrijs
+        private void redImage_MouseLeave(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = Brushes.LightGray;
+        }
+
+        private void greenImage_MouseLeave(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = Brushes.LightGray;
+        }
+
+        private void yellowImage_MouseLeave(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = Brushes.LightGray;
+        }
+
+        private void blueImage_MouseLeave(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = Brushes.LightGray;
+        }
+    }
+}KLEUR
