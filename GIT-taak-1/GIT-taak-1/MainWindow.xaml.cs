@@ -53,3 +53,46 @@ namespace GIT_taak_1
             codeTextbox.Text = blueCode;
             infoTextbox.Text = blueInfo;
         }
+        // Event handlers voor muisovergangen: verander achtergrondkleur
+        private void redImage_MouseEnter(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = Brushes.Red;
+        }
+
+        private void greenImage_MouseEnter(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = Brushes.Green;
+        }
+
+        private void yellowImage_MouseEnter(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = Brushes.Yellow;
+        }
+
+        private void blueImage_MouseEnter(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = Brushes.Blue;
+        }
+
+        // Event handlers voor muisverlatingen: verander achtergrondkleur terug naar lichtgrijs
+        private void redImage_MouseLeave(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = Brushes.LightGray;
+        }
+
+        private void greenImage_MouseLeave(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = Brushes.LightGray;
+        }
+
+        private void yellowImage_MouseLeave(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = Brushes.LightGray;
+        }
+
+        private void blueImage_MouseLeave(object sender, MouseEventArgs e)
+        {
+            mainWindow.Background = Brushes.LightGray;
+        }
+    }
+}
